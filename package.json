@@ -1,0 +1,25 @@
+{
+  "name": "pleb-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --verbose ./tests"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.4.0",
+    "finnhub": "^1.2.1",
+    "jsoning": "^0.11.21",
+    "node-schedule": "^2.0.0",
+    "yt-search": "^2.9.0",
+    "ytdl-core": "^4.8.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
