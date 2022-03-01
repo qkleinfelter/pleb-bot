@@ -29,8 +29,6 @@ process.on("SIGUSR2", exitHandler.bind(null, { exit: true }));
 process.on("uncaughtException", exitHandler.bind(null, { exit: true }));
 
 client.on("ready", () => {
-  client.channels.cache.get(botChannel).send("Pleb Bot started!");
-
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
