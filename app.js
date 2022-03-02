@@ -44,10 +44,6 @@ client.on("message", async (message) => {
   if (message.content[0] === "/" || message.content[0] === "!") {
     await commandHandler.handleCommands(message);
   }
-
-  if (message.content === "thank mr aloy") {
-    message.react("❤");
-  }
 });
 
 client.login(token);
