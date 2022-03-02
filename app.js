@@ -37,6 +37,10 @@ client.on("message", async (message) => {
     message.reply("Pong!");
   }
 
+  if (message.content === "fuck you cham's bot") {
+    message.reply("no u");
+  }
+
   if (message.content[0] === "/" || message.content[0] === "!") {
     await commandHandler.handleCommands(message);
   }
