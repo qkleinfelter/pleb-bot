@@ -57,7 +57,8 @@ class MusicPlayer {
 
       if (
         url.origin !== "https://youtube.com" &&
-        url.origin !== "https://www.youtube.com"
+        url.origin !== "https://www.youtube.com" &&
+        url.origin !== "https://youtu.be"
       ) {
         textChannel.send("Aloy only supports playing YouTube videos.");
 
