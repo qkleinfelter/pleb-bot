@@ -60,7 +60,7 @@ class MusicPlayer {
         url.origin !== "https://www.youtube.com" &&
         url.origin !== "https://youtu.be"
       ) {
-        textChannel.send("Aloy only supports playing YouTube videos.");
+        textChannel.send("Plebs Bot only supports playing YouTube videos.");
 
         return;
       }
